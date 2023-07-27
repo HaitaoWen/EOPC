@@ -40,25 +40,25 @@ The CIFAR-100 dataset can be automatically downloaded by running an arbitrary sc
 ### Experiments
 - PODNet
 ```
-python --cfg config/replay/podnet/podnet_cifar100.yaml
+python main.py --cfg config/replay/podnet/podnet_cifar100.yaml
 ```
 
 - AANet
 
 ```
-python --cfg config/structure/aanet/podnet/aanet_podnet_cifar100.yaml
+python main.py --cfg config/structure/aanet/podnet/aanet_podnet_cifar100.yaml
 ```
 
 - PODNet w/ EOPC
 
 ```
-python --cfg config/replay/opc/podnet/opc_podnet_cifar100.yaml
+python main.py --cfg config/replay/opc/podnet/opc_podnet_cifar100.yaml
 ```
 
 - AANet w/ EOPC
 
 ```
-python --cfg config/replay/opc/aanet/opc_aanet_cifar100.yaml
+python main.py --cfg config/replay/opc/aanet/opc_aanet_cifar100.yaml
 ```
 
 ### Notes
